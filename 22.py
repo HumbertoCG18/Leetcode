@@ -1,7 +1,5 @@
 class Solution:
-    #adicionar ) apenas depois de um ( valido
-    #Usando interativos para tornar a execução mais rápida 
-    def generateParenthesis(self, n: int) -> List[str]:
+    def generateParenthesis(self, n: int) -> list[str]:
         result = []
         left = right = 0
         q = [(left, right, '')]
