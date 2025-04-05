@@ -1,3 +1,4 @@
+#include <cstddef>
 char* findLongestWord(char* s, char** dictionary, int dictionarySize) {
     char* result = NULL;
     int maxLength = 0;
